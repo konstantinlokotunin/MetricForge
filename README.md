@@ -1,36 +1,97 @@
 # 📊 KPI Dashboard (Python)
-This project visualizes the financial performance of a fictional company using Python, NumPy, and Matplotlib.
 
-## Project Structure
+A modular Python project for analyzing and visualizing business KPI data — designed as a foundation for scalable data workflows.
 
+---
+
+## 🚀 Features
+
+* 📥 Load data from CSV files
+* 📊 Compute key metrics:
+
+  * Profit
+  * Average revenue
+  * Growth rates (revenue & costs)
+  * Best and worst performing months
+* 📈 Static visualizations using Matplotlib
+* 📌 Highlight key insights (e.g. peak profit point)
+* 💾 Export processed results to CSV
+* 🧱 Clean, modular project structure (data / src / outputs)
+
+---
+
+## 🧠 Project Structure
+
+```
 kpi-dashboard/
 │
-├── data/           # raw input data
-├── src/            # core logic (data loading, analysis, visualization)
-├── outputs/        # generated outputs
-├── main.py         # entry point
+├── data/              # Raw input data
+├── src/               # Core logic
+│   ├── data_loader.py
+│   ├── data_pandas.py
+│   ├── analysis.py
+│   ├── visualization.py
+│
+├── outputs/           # Generated files (plots, exports)
+├── main.py            # Entry point
+├── README.md
+```
 
-## 🔧 Features
-- Revenue, cost, and profit calculation
-- KPI statistics (average, max, min)
-- Growth rate analysis (month-over-month)
-- Automated insights (best/worst performing months)
-- Combined line and bar chart visualizations
+---
 
-## 📈 Data Source
+## 📸 Example Output
 
-The dataset is loaded from a CSV file, simulating real-world data ingestion workflows.
+![KPI Dashboard](outputs/KPI_Dashboard.png)
 
-## 📈 Example Output
+---
 
-[🔍 View full resolution](outputs/KPI_Dashboard.png)
+## ⚙️ Technologies Used
 
-## Future Improvements
+* Python 3.14
+* NumPy
+* Matplotlib
+* Pandas (optional data loading)
 
-- Add user input/dynamic data.
-- Integrate an SQL database.
-- Enhance visualisation styling.
-- Add more interactive dashboard features.
-- Include a web dashboard (Streamlit).
-- Introduce ML forecasting.
-- Implement a data validation layer.
+---
+
+## ▶️ How to Run
+
+```bash
+python main.py
+```
+
+---
+
+## 📊 Example Insights Generated
+
+* Identification of the best and worst performing months
+* Profit trends over time
+* Revenue and cost growth trends
+* Average revenue calculation
+
+---
+
+## 🎯 Purpose
+
+This project demonstrates:
+
+* Data processing and transformation in Python
+* Modular software design and clean code structure
+* Basic data visualization techniques using Matplotlib
+* Building reproducible data workflows
+
+---
+
+## 🔧 Future Improvements
+
+* Interactive visualizations (mplcursors / Plotly)
+* CLI interface (argparse / Typer)
+* Database integration (PostgreSQL)
+* Streamlit dashboard
+* Automated reporting pipeline
+
+---
+
+## 📄 License
+
+CC0-1.0
