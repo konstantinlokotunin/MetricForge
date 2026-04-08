@@ -4,7 +4,7 @@ A modular Python project for analyzing and visualizing business KPI data — des
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
 * 📥 Load data from CSV files
 * 📊 Compute key metrics:
@@ -16,11 +16,11 @@ A modular Python project for analyzing and visualizing business KPI data — des
 * 📈 Static visualizations using Matplotlib
 * 📌 Highlight key insights (e.g. peak profit point)
 * 💾 Export processed results to CSV
-* 🧱 Clean, modular project structure (data / src / outputs)
+* 🧠 Clean, modular project structure (data / src / outputs)
 
 ---
 
-## 🧠 Project Structure
+## 🧱 Project Structure
 
 ```
 kpi-dashboard/
@@ -82,7 +82,7 @@ This project demonstrates:
 
 ---
 
-## 🔧 Future Improvements
+## 🔮 Future Improvements
 
 * Interactive visualizations (mplcursors / Plotly)
 * CLI interface (argparse / Typer)
@@ -92,6 +92,6 @@ This project demonstrates:
 
 ---
 
-## 📄 License
+## 📜 License
 
 CC0-1.0
